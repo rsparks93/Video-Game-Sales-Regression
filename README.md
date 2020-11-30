@@ -23,7 +23,7 @@ For this project I pulled a data set from Kaggle, https://www.kaggle.com/gregoru
 
 * Global_Sales - Total worldwide sales.
 
-For my linear regression model I decided to use the global sales and year variables to see if there is a linear relationship between the year a video game was released and global sales. The independent variable for my model is the year of release while the dependent variable is the global sales. There were some severe linearity, homoscedasticity, and normality violations that I attempted to correct by subsetting the data to only include titles that sold less than one million copies. 
+For my linear regression model I used the global sales and year variables to see if there is a linear relationship between the year a video game was released and global sales. One question I want to answer with my model is whether there is a relationship between the year a video game was released and the global sales for the video game. The independent variable for my model is the year of release while the dependent variable is the global sales. There were some severe linearity, homoscedasticity, and normality violations that I attempted to correct by subsetting the data to only include titles that sold less than one million copies. 
 
 For my regression analysis I used an alpha of 0.05. Each increase in year corresponds to a 0.0008 average decrease in games sold globally, (p = 0.045). The R2 value is very small at 0.0005, so hardly any of the global sales can be explained by year. My findings were just barely statistically significant with a p value of 0.045, so I cannot say that there is a linear relationship between year and global sales with such a small coefficient.
 
